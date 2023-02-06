@@ -6,7 +6,7 @@ export default function Header({
   imgHeader = "imagen do cabeçalho",
 }) {
   return (
-    <header className="flex items-end justify-center h-screen bg-black  text-white ">
+    <header className="flex items-end justify-center [height:630px;] bg-black  text-white ">
       <section className="flex items-center justify-end h-full w-2/5 ">
         <div className="flex-col w-3/4">
           <div className="container-logo py-3">

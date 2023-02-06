@@ -29,15 +29,35 @@ function App() {
         />
       </section>
 
-      <section className=" text-white text-center  h-80 pt-16">
+      <section className="  text-center  h-auto py-16 text-white">
         <h2 className="text-2xl font-bold text-center">
           COMO FUNCIONA O MÉTODO 5X
         </h2>
 
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card
+          imgCard="img/img-card01.png"
+          descriptionCard="TRANSFORMANDO A ALIMENTAÇÃO"
+          buttonCard="MÓDULO 01"
+          moreInfoButton="SAIBA MAIS"
+        />
+        <Card
+          imgCard="img/img-card02.png"
+          descriptionCard="CRONOGRAMA DOS TREINOS"
+          buttonCard="MÓDULO 02"
+          moreInfoButton="SAIBA MAIS"
+        />
+        <Card
+          imgCard="img/img-card03.png"
+          descriptionCard="A IMPORTÁNCIA DO DESCANSO"
+          buttonCard="MÓDULO 03"
+          moreInfoButton="SAIBA MAIS"
+        />
+        <Card
+          imgCard="img/img-card04.png"
+          descriptionCard="ALCANÇANDO OS OBJETIVOS"
+          buttonCard="MÓDULO 04"
+          moreInfoButton="SAIBA MAIS"
+        />
       </section>
     </>
   );
