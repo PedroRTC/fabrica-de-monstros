@@ -16,7 +16,9 @@ export default function Header({
           <h1 className="text-3xl py-3 font-extrabold">{titleHeader}</h1>
           <p className="py-3">{descriptionHeader}</p>
 
-          <button className="bg-red-700 py-2 px-6">{buttonHeader}</button>
+          <button className="bg-red-700 py-2 px-6 font-bold">
+            {buttonHeader}
+          </button>
         </div>
       </section>
 

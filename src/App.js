@@ -31,7 +31,7 @@ function App() {
 
       <section className="  text-center  h-auto py-16 text-white">
         <h2 className="text-2xl font-bold text-center">
-          COMO FUNCIONA O MÉTODO 5X
+          COMO FUNCIONA O <spa className="text-red-600">MÉTODO 5X</spa>
         </h2>
 
         <Card
@@ -58,6 +58,9 @@ function App() {
           buttonCard="MÓDULO 04"
           moreInfoButton="SAIBA MAIS"
         />
+        <button className="m-auto mt-10 [width:360px;] h-11 rounded-sm bg-red-700 font-bold text-sm">
+          QUERO COMEÇAR AGORA
+        </button>
       </section>
     </>
   );
