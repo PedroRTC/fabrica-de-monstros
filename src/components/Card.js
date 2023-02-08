@@ -7,6 +7,7 @@ export default function Card({
   return (
     <div className="[width:310px;] mx-2 mt-16 h-auto  inline-block bg-zinc-900 ">
       <div
+       
         style={{
           background: `url(${imgCard})`,
           height: "400px",

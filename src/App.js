@@ -1,4 +1,5 @@
 import Card from "./components/Card";
+import CommentCard from "./components/CommentCard";
 import Header from "./components/Header";
 import IndicativeCard from "./components/IndicativeCard";
 
@@ -14,7 +15,7 @@ function App() {
       />
 
       <section className="bg-neutral-900 text-white text-center  h-80 p-12 border-y-2 border-red-700">
-        <h2 className="text-2xl font-bold">FEITO PARA VOCÊ</h2>
+        <h2 className="text-3xl font-bold">FEITO PARA VOCÊ</h2>
         <IndicativeCard
           imgCardIndicative="img/vector.png"
           descriptionCardIndicative="Iniciante na busca do corpo perfeito"
@@ -30,7 +31,7 @@ function App() {
       </section>
 
       <section className="  text-center  h-auto py-16 text-white">
-        <h2 className="text-2xl font-bold text-center">
+        <h2 className="text-3xl font-bold text-center">
           COMO FUNCIONA O <spa className="text-red-600">MÉTODO 5X</spa>
         </h2>
 
@@ -61,6 +62,49 @@ function App() {
         <button className="m-auto mt-10 [width:360px;] h-11 rounded-sm bg-red-700 font-bold text-sm">
           QUERO COMEÇAR AGORA
         </button>
+      </section>
+
+      <section className=" text-center  h-auto py-16 text-white">
+        <h2 className="text-3xl font-bold text-center">
+          O QUE ESTÃO FALANDO DO NOSSO
+          <br /> MÉTODO DE TREINAMENTO
+        </h2>
+
+        <div className="flex justify-center items-center w-9/12 m-auto ">
+          <i
+            className=" text-red-700 cursor-pointer  fa fa-angle-left fa-2x"
+            aria-hidden="true"
+          ></i>
+
+          <section className="flex items-center justify-center w-full h-96 gap-10">
+            <CommentCard
+              imgPerfilComment="img/img-perfil01.png"
+              profUserComment="FISICULTURISTA"
+              nameUserComment="LEONARDO"
+              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare accumsan faucibus cras. Porta varius bibendum."
+              imgComment="img/img-comment.png"
+            />
+            <CommentCard
+              imgPerfilComment="img/img-perfil02.png"
+              profUserComment="ATLETA"
+              nameUserComment="GEOVANA"
+              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare accumsan faucibus cras. Porta varius bibendum."
+              imgComment="img/img-comment.png"
+            />
+            <CommentCard
+              imgPerfilComment="img/img-perfil03.png"
+              profUserComment="JORNALISTA"
+              nameUserComment="JOÃO"
+              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare accumsan faucibus cras. Porta varius bibendum."
+              imgComment="img/img-comment.png"
+            />
+          </section>
+
+          <i
+            className="text-red-700 cursor-pointer fa fa-angle-right fa-2x"
+            aria-hidden="true"
+          ></i>
+        </div>
       </section>
     </>
   );
