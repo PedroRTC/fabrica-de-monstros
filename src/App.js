@@ -1,7 +1,7 @@
-import Card from "./components/Card";
-import CommentCard from "./components/CommentCard";
-import Header from "./components/Header";
-import IndicativeCard from "./components/IndicativeCard";
+import Card from './components/Card';
+import CommentCard from './components/CommentCard';
+import Header from './components/Header';
+import IndicativeCard from './components/IndicativeCard';
 
 function App() {
   return (
