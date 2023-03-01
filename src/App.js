@@ -59,24 +59,25 @@ function App() {
           buttonCard="MÓDULO 04"
           moreInfoButton="SAIBA MAIS"
         />
+        <br />
         <button className="m-auto mt-10 [width:360px;] h-11 rounded-sm bg-red-700 font-bold text-sm">
           QUERO COMEÇAR AGORA
         </button>
       </section>
 
-      <section className=" text-center  h-auto py-16 text-white">
+      <section className=" text-center  h-auto py-16 text-white ">
         <h2 className="text-3xl font-bold text-center">
           O QUE ESTÃO FALANDO DO NOSSO
           <br /> MÉTODO DE TREINAMENTO
         </h2>
 
-        <div className="flex justify-center items-center w-9/12 m-auto ">
+        <div className="flex justify-center items-center w-9/12 m-auto gap-3">
           <i
             className=" text-red-700 cursor-pointer  fa fa-angle-left fa-2x"
             aria-hidden="true"
           ></i>
 
-          <section className="flex items-center justify-center w-full h-96 gap-10">
+          <section className="flex items-center justify-center w-full h-96 gap-5 overflow-hidden">
             <CommentCard
               imgPerfilComment="img/img-perfil01.png"
               profUserComment="FISICULTURISTA"
