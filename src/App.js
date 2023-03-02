@@ -13,7 +13,8 @@ function App() {
       <Header
         imgLogo="img/logo.png"
         titleHeader="Transforme o seu corpo 5x mais rápido"
-        descriptionHeader="Faça parte do método mais utilizado por atletas de alto nível. Venha transformar seu corpo e reconquistar a sua autoestima"
+        descriptionHeader="Faça parte do método mais utilizado por atletas de alto nível. Venha transformar
+         seu corpo e reconquistar a sua autoestima"
         imgHeader="img/img-header.png"
       >
         <Button descButton="COMEÇAR AGORA" />
@@ -88,21 +89,24 @@ function App() {
               imgPerfilComment="img/img-perfil01.png"
               profUserComment="FISICULTURISTA"
               nameUserComment="LEONARDO"
-              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare accumsan faucibus cras. Porta varius bibendum."
+              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare 
+              accumsan faucibus cras. Porta varius bibendum."
               imgComment="img/img-comment.png"
             />
             <CommentCard
               imgPerfilComment="img/img-perfil02.png"
               profUserComment="ATLETA"
               nameUserComment="GEOVANA"
-              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare accumsan faucibus cras. Porta varius bibendum."
+              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare 
+              accumsan faucibus cras. Porta varius bibendum."
               imgComment="img/img-comment.png"
             />
             <CommentCard
               imgPerfilComment="img/img-perfil03.png"
               profUserComment="JORNALISTA"
               nameUserComment="JOÃO"
-              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare accumsan faucibus cras. Porta varius bibendum."
+              commentUser="Lorem ipsum dolor sit amet consectetur. Vel ut nam mi velit. Lorem ornare accumsan
+               faucibus cras. Porta varius bibendum."
               imgComment="img/img-comment.png"
             />
           </section>
@@ -116,8 +120,13 @@ function App() {
 
       <MyCoach
         titleCoach="QUEM É SEU TREINADOR"
-        descCoach="Lorem ipsum dolor sit amet consectetur. In augue egestas ullamcorper nec viverra orci risus egestas. Lacus consequat auctor lacus amet volutpat sed. Pharetra suscipit in vitae ante etiam in. Convallis blandit dolor in nisl malesuada venenatis dignissim mauris.
-        Nisl mi vehicula cursus nisi sit nulla donec adipiscing. Ipsum nibh aliquam integer faucibus purus. Orci eu malesuada morbi et interdum nunc lorem a adipiscing. Nisl suscipit maecenas risus amet at convallis massa.Lorem ipsum dolor sit amet consectetur. In augue egestas ullamcorper nec viverra orci risus egestas. Lacus consequat auctor lacus amet volutpat sed.
+        descCoach="Lorem ipsum dolor sit amet consectetur. In augue egestas ullamcorper nec viverra orci 
+        risus egestas. Lacus consequat auctor lacus amet volutpat sed. Pharetra suscipit in vitae ante etiam 
+        in. Convallis blandit dolor in nisl malesuada venenatis dignissim mauris.
+        Nisl mi vehicula cursus nisi sit nulla donec adipiscing. Ipsum nibh aliquam integer faucibus purus. 
+        Orci eu malesuada morbi et interdum nunc lorem a adipiscing. Nisl suscipit maecenas risus amet at 
+        convallis massa.Lorem ipsum dolor sit amet consectetur. In augue egestas ullamcorper nec viverra orci 
+        risus egestas. Lacus consequat auctor lacus amet volutpat sed.
         Pharetra suscipit in vitae ante etiam in. Convallis blandit dolor in nisl malesuada venenatis dignissim mauris."
         imgCoach="img/Hero.png"
       >
@@ -145,7 +154,8 @@ function App() {
         Ipsum nibh aliquam integer faucibus purus. Orci eu malesuada morbi et interdum nunc."
         valueInvestments="Por apenas R$1.940,00"
         installments="Ou 12x de R$175,80  "
-        descSecurity="Se em 7 dias você perceber que esse método não é para você, é só solicitar seu dinheiro de volta que a devolução será realizada de maneira simples e rápida, não precisa de justificativa."
+        descSecurity="Se em 7 dias você perceber que esse método não é para você, é só solicitar 
+        seu dinheiro de volta que a devolução será realizada de maneira simples e rápida, não precisa de justificativa."
         imgSecurity="img/img-se.png"
       >
         <Button descButton="QUERO COMEÇAR AGORA" />
