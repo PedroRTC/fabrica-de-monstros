@@ -3,6 +3,7 @@ import Card from './components/Card';
 import CommentCard from './components/CommentCard';
 import Header from './components/Header';
 import IndicativeCard from './components/IndicativeCard';
+import Investments from './components/Investments';
 import MyCoach from './components/MyCoach';
 import TrainerData from './components/TrainerData';
 
@@ -136,6 +137,19 @@ function App() {
           descTrainerData="CONSTRUIDAS"
         />
       </MyCoach>
+
+      <Investments
+        titleInvestmens="INVESTIMENTO"
+        descInvestments="Lorem ipsum dolor sit amet consectetur.
+        Lacus consequat auctor lacus amet volutpat sed.
+        Ipsum nibh aliquam integer faucibus purus. Orci eu malesuada morbi et interdum nunc."
+        valueInvestments="Por apenas R$1.940,00"
+        installments="Ou 12x de R$175,80  "
+        descSecurity="Se em 7 dias você perceber que esse método não é para você, é só solicitar seu dinheiro de volta que a devolução será realizada de maneira simples e rápida, não precisa de justificativa."
+        imgSecurity="img/img-se.png"
+      >
+        <Button descButton="QUERO COMEÇAR AGORA" />
+      </Investments>
     </>
   );
 }
