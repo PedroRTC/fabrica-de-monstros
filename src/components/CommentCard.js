@@ -8,7 +8,11 @@ export default function CommentCard({
   return (
     <div className="flex-none w-72 h-72 bg-zinc-900 text-white pt-5 text-left rounded-md border-b-2 border-red-700">
       <section className="flex items-center gap-6 [width:85%] m-auto">
-        <img className="w-14 h-14" src={imgPerfilComment} />
+        <img
+          className="w-14 h-14"
+          src={imgPerfilComment}
+          alt="imagen do perfil"
+        />
 
         <div>
           <h3 className="font-bold">{nameUserComment}</h3>
@@ -17,7 +21,11 @@ export default function CommentCard({
       </section>
       <p className="mt-8 gap-2 text-base [width:85%] m-auto ">{commentUser}</p>
       <section className="flex justify-end items-center">
-        <img className="w-11 h-14" src={imgComment} />
+        <img
+          className="w-11 h-14"
+          src={imgComment}
+          alt="imagen do card coméntario"
+        />
       </section>
     </div>
   );

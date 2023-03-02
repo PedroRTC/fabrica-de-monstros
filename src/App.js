@@ -1,7 +1,10 @@
+import Button from './components/Button';
 import Card from './components/Card';
 import CommentCard from './components/CommentCard';
 import Header from './components/Header';
 import IndicativeCard from './components/IndicativeCard';
+import MyCoach from './components/MyCoach';
+import TrainerData from './components/TrainerData';
 
 function App() {
   return (
@@ -10,9 +13,10 @@ function App() {
         imgLogo="img/logo.png"
         titleHeader="Transforme o seu corpo 5x mais rápido"
         descriptionHeader="Faça parte do método mais utilizado por atletas de alto nível. Venha transformar seu corpo e reconquistar a sua autoestima"
-        buttonHeader="COMEÇAR AGORA"
         imgHeader="img/img-header.png"
-      />
+      >
+        <Button descButton="COMEÇAR AGORA" />
+      </Header>
 
       <section className="bg-neutral-900 text-white text-center  h-80 p-12 border-y-2 border-red-700">
         <h2 className="text-3xl font-bold">FEITO PARA VOCÊ</h2>
@@ -60,9 +64,10 @@ function App() {
           moreInfoButton="SAIBA MAIS"
         />
         <br />
-        <button className="m-auto mt-10 [width:360px;] h-11 rounded-sm bg-red-700 font-bold text-sm">
-          QUERO COMEÇAR AGORA
-        </button>
+
+        <div className="mt-10">
+          <Button descButton=" QUERO COMEÇAR AGORA" />
+        </div>
       </section>
 
       <section className=" text-center  h-auto py-16 text-white ">
@@ -107,6 +112,30 @@ function App() {
           ></i>
         </div>
       </section>
+
+      <MyCoach
+        titleCoach="QUEM É SEU TREINADOR"
+        descCoach="Lorem ipsum dolor sit amet consectetur. In augue egestas ullamcorper nec viverra orci risus egestas. Lacus consequat auctor lacus amet volutpat sed. Pharetra suscipit in vitae ante etiam in. Convallis blandit dolor in nisl malesuada venenatis dignissim mauris.
+        Nisl mi vehicula cursus nisi sit nulla donec adipiscing. Ipsum nibh aliquam integer faucibus purus. Orci eu malesuada morbi et interdum nunc lorem a adipiscing. Nisl suscipit maecenas risus amet at convallis massa.Lorem ipsum dolor sit amet consectetur. In augue egestas ullamcorper nec viverra orci risus egestas. Lacus consequat auctor lacus amet volutpat sed.
+        Pharetra suscipit in vitae ante etiam in. Convallis blandit dolor in nisl malesuada venenatis dignissim mauris."
+        imgCoach="img/Hero.png"
+      >
+        <TrainerData
+          numbers="+200"
+          specification="VIDAS"
+          descTrainerData="TRANSFORMADAS"
+        />
+        <TrainerData
+          numbers="+14"
+          specification="ATLETAS"
+          descTrainerData="PROFISSIONAIS"
+        />
+        <TrainerData
+          numbers="+8"
+          specification="FILIAIS"
+          descTrainerData="CONSTRUIDAS"
+        />
+      </MyCoach>
     </>
   );
 }
